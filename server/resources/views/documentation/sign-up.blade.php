@@ -10,16 +10,16 @@
     <!-- title -->
     <title>VedhaDocs</title>
     <!-- bootstarap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/documentation/assets/css/bootstrap.min.css">
     <!-- themify css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/themify-icons.css">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/style.css">
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/responsive.css">
     <!-- color css -->
-    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
-    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="main" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,7 +35,7 @@
      Pre-loader
      ====================== -->
     <div class="preloader">
-        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+        <img src="/assets/documentation/assets/images/preloader.svg" class="img-fluid" alt="preloader">
     </div>
 
     <section class="login-wrapper">
@@ -44,7 +44,7 @@
                 <h3>VEDHADOCS</h3>
                 <div class="form-login">
                     <div class="heading-login">
-                        <label>Sign Up</label> <a href="login.html">Log in</a>
+                        <label>Sign Up</label> <a href="documentation/login">Log in</a>
                     </div>
                     <div class="form-group">
                         <input type="text" name="username" placeholder="example@email.com">
@@ -59,9 +59,9 @@
                     <!-- login-with -->
                     <div class="login-with">
                         <ul class="clearfix">
-                            <li><a href="#" class="facebook-rd"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#" class="twitter-rd"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#" class="linkedin-rd"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="documentation/#" class="facebook-rd"><i class="ti-facebook"></i></a></li>
+                            <li><a href="documentation/#" class="twitter-rd"><i class="ti-twitter"></i></a></li>
+                            <li><a href="documentation/#" class="linkedin-rd"><i class="ti-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,15 +78,15 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
     <!-- jquery -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/assets/documentation/assets/js/jquery.min.js"></script>
     <!-- popper js-->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="/assets/documentation/assets/js/popper.min.js"></script>
     <!-- bootstrap js-->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/documentation/assets/js/bootstrap.min.js"></script>
     <!-- slideNav js -->
-    <script src="assets/js/slideNav.js"></script>
+    <script src="/assets/documentation/assets/js/slideNav.js"></script>
     <!-- custom js -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/documentation/assets/js/custom.js"></script>
 </body>
 
 

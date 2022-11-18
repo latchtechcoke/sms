@@ -10,16 +10,16 @@
     <!-- title -->
     <title>VedhaDocs</title>
     <!-- bootstarap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/documentation/assets/css/bootstrap.min.css">
     <!-- themify css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/themify-icons.css">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/style.css">
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/responsive.css">
     <!-- color css -->
-    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
-    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="main" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,7 +34,7 @@
      Pre-loader
      ====================== -->
     <div class="preloader">
-        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+        <img src="/assets/documentation/assets/images/preloader.svg" class="img-fluid" alt="preloader">
     </div>
     <!-- =============================
          Header
@@ -50,40 +50,40 @@
                         <!-- end of navbar-toggler -->
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index">Home</a>
                                 </li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="layout.html">Layout-1</a>
-                                        <a class="dropdown-item" href="introduction.html">Layout-2</a>
-                                        <a class="dropdown-item" href="bootstrap-2.html">Minimal</a>
-                                        <a class="dropdown-item" href="bootstrap.html">Bootstrap</a>
-                                        <a class="dropdown-item" href="semantic.html">Semantic</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="layout">Layout-1</a>
+                                        <a class="dropdown-item" href="introduction">Layout-2</a>
+                                        <a class="dropdown-item" href="bootstrap-2">Minimal</a>
+                                        <a class="dropdown-item" href="bootstrap">Bootstrap</a>
+                                        <a class="dropdown-item" href="semantic">Semantic</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown-1"> <a class="dropdown-item" href="article.html">Article-1</a>
-                                        <a class="dropdown-item active" href="article-2.html">Article-2</a>
-                                        <a class="dropdown-item" href="404.html">404</a>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                                        <a class="dropdown-item" href="login.html">Login</a>
-                                        <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown-1"> <a class="dropdown-item" href="article">Article-1</a>
+                                        <a class="dropdown-item active" href="article-2">Article-2</a>
+                                        <a class="dropdown-item" href="404">404</a>
+                                        <a class="dropdown-item" href="contact">Contact</a>
+                                        <a class="dropdown-item" href="faq">FAQ</a>
+                                        <a class="dropdown-item" href="login">Login</a>
+                                        <a class="dropdown-item" href="sign-up">Sign Up</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown-2"> <a class="dropdown-item" href="alert.html">Alerts</a>
-                                        <a class="dropdown-item" href="typography.html">Typography</a>
-                                        <a class="dropdown-item" href="content.html">Content</a>
-                                        <a class="dropdown-item" href="badge.html">Badge</a>
-                                        <a class="dropdown-item" href="pagination.html">Pagination</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown-2"> <a class="dropdown-item" href="alert">Alerts</a>
+                                        <a class="dropdown-item" href="typography">Typography</a>
+                                        <a class="dropdown-item" href="content">Content</a>
+                                        <a class="dropdown-item" href="badge">Badge</a>
+                                        <a class="dropdown-item" href="pagination">Pagination</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
@@ -140,7 +140,7 @@
                                     <div class="created-atr">
                                         <div class="comment_atr clearfix">
                                             <div class="img-atr">
-                                                <img src="assets/images/autor.jpg" class="img-fluid" alt="">
+                                                <img src="/assets/documentation/assets/images/autor.jpg" class="img-fluid" alt="">
                                             </div>
                                             <!-- end of img-atr -->
                                             <div class="detail-atr">
@@ -205,11 +205,11 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     <div class="article-helpful">
                                         <h5>Was this article helpful?</h5>
-                                        <div class="box-btns"> <a href="#"><i class="ti-check"></i><span>Yes</span></a>
-                                            <a href="#"><i class="ti-close"></i><span>No</span></a>
+                                        <div class="box-btns"> <a href="documentation/#"><i class="ti-check"></i><span>Yes</span></a>
+                                            <a href="documentation/#"><i class="ti-close"></i><span>No</span></a>
                                         </div>
                                         <!-- end of box-btns -->
-                                        <p>Have more questions? <a href="#">Submit a request</a>
+                                        <p>Have more questions? <a href="documentation/#">Submit a request</a>
                                         </p>
                                     </div>
                                     <!-- end of article-helpful" -->
@@ -219,11 +219,11 @@
                                                 <div class="inner-list">
                                                     <h5>Recently Viewed Articles</h5>
                                                     <ul>
-                                                        <li><a href="#">Sed ut perspiciatis unde omnis iste laudantium, totam rem aperiam</a>
+                                                        <li><a href="documentation/#">Sed ut perspiciatis unde omnis iste laudantium, totam rem aperiam</a>
                                                         </li>
-                                                        <li><a href="#">Lorem ipsum dolor sit amet, elabore et dolore magna aliqua</a>
+                                                        <li><a href="documentation/#">Lorem ipsum dolor sit amet, elabore et dolore magna aliqua</a>
                                                         </li>
-                                                        <li><a href="#">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a>
+                                                        <li><a href="documentation/#">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -234,11 +234,11 @@
                                                 <div class="inner-list">
                                                     <h5>Related Articles</h5>
                                                     <ul>
-                                                        <li><a href="#">Sed ut perspiciatis unde omnis iste laudantium, totam rem aperiam</a>
+                                                        <li><a href="documentation/#">Sed ut perspiciatis unde omnis iste laudantium, totam rem aperiam</a>
                                                         </li>
-                                                        <li><a href="#">Lorem ipsum dolor sit amet, elabore et dolore magna aliqua</a>
+                                                        <li><a href="documentation/#">Lorem ipsum dolor sit amet, elabore et dolore magna aliqua</a>
                                                         </li>
-                                                        <li><a href="#">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a>
+                                                        <li><a href="documentation/#">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -259,7 +259,7 @@
                                         <h4>Comments</h4>
                                         <div class="comment_atr clearfix">
                                             <div class="img-atr">
-                                                <img src="assets/images/team-1.jpg" class="img-fluid" alt="">
+                                                <img src="/assets/documentation/assets/images/team-1.jpg" class="img-fluid" alt="">
                                             </div>
                                             <!-- end of img-atr -->
                                             <div class="detail-atr">
@@ -272,13 +272,13 @@
                                         <div class="atr-comment">
                                             <div class="inner-comment">
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
-                                                <a href="#">Reply</a>
+                                                <a href="documentation/#">Reply</a>
                                             </div>
                                             <!-- end of inner-comment -->
                                             <div class="rply-atr">
                                                 <div class="comment_atr clearfix">
                                                     <div class="img-atr">
-                                                        <img src="assets/images/team-2.jpg" class="img-fluid" alt="">
+                                                        <img src="/assets/documentation/assets/images/team-2.jpg" class="img-fluid" alt="">
                                                     </div>
                                                     <!-- end of img-atr -->
                                                     <div class="detail-atr">
@@ -291,7 +291,7 @@
                                                 <div class="atr-comment">
                                                     <div class="inner-comment">
                                                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                                                        <a href="#">Reply</a>
+                                                        <a href="documentation/#">Reply</a>
                                                     </div>
                                                     <!-- end of inner-comment -->
                                                 </div>
@@ -378,11 +378,11 @@
                         ===================-->
                         <div class="col-sm-3">
                             <div class="right-nav nav article-right-nav">
-                                <nav> <a href="#quick_start">Quick Start</a>
-                                    <a href="#why_build">Why Build Tools</a>
-                                    <a href="#recipes">Recipes</a>
-                                    <a href="#glossary">Glossary</a>
-                                    <a href="#folder_strtr">Folder Stucture</a>
+                                <nav> <a href="documentation/#quick_start">Quick Start</a>
+                                    <a href="documentation/#why_build">Why Build Tools</a>
+                                    <a href="documentation/#recipes">Recipes</a>
+                                    <a href="documentation/#glossary">Glossary</a>
+                                    <a href="documentation/#folder_strtr">Folder Stucture</a>
                                 </nav>
                             </div>
                             <!-- end of side-new-bar -->
@@ -402,15 +402,15 @@
         <footer>
             <div class="container">
                 <ul>
-                    <li><a href="#">Getting Started</a>
+                    <li><a href="documentation/#">Getting Started</a>
                     </li>
-                    <li><a href="#">Layout</a>
+                    <li><a href="documentation/#">Layout</a>
                     </li>
-                    <li><a href="#">Content</a>
+                    <li><a href="documentation/#">Content</a>
                     </li>
-                    <li><a href="#">Components</a>
+                    <li><a href="documentation/#">Components</a>
                     </li>
-                    <li><a href="#">Utilities</a>
+                    <li><a href="documentation/#">Utilities</a>
                     </li>
                 </ul>
             </div>
@@ -423,19 +423,19 @@
             <h4>Theme</h4>
             <ul class="clearfix">
                 <li>
-                    <a href="#" id="blue-wlt"></a>
+                    <a href="documentation/#" id="blue-wlt"></a>
                 </li>
                 <li>
-                    <a href="#" id="gradient-wlt"></a>
+                    <a href="documentation/#" id="gradient-wlt"></a>
                 </li>
                 <li>
-                    <a href="#" id="green-wlt"></a>
+                    <a href="documentation/#" id="green-wlt"></a>
                 </li>
                 <li>
-                    <a href="#" id="red-wlt"></a>
+                    <a href="documentation/#" id="red-wlt"></a>
                 </li>
                 <li>
-                    <a href="#" id="img-wlt"></a>
+                    <a href="documentation/#" id="img-wlt"></a>
                 </li>
             </ul>
         </div>
@@ -444,15 +444,15 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
     <!-- jquery -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/assets/documentation/assets/js/jquery.min.js"></script>
     <!-- popper js-->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="/assets/documentation/assets/js/popper.min.js"></script>
     <!-- bootstrap js-->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/documentation/assets/js/bootstrap.min.js"></script>
     <!-- slideNav js -->
-    <script src="assets/js/slideNav.js"></script>
+    <script src="/assets/documentation/assets/js/slideNav.js"></script>
     <!-- custom js -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/documentation/assets/js/custom.js"></script>
 </body>
 
 

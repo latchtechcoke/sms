@@ -10,16 +10,16 @@
     <!-- title -->
     <title>VedhaDocs</title>
     <!-- bootstarap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/documentation/assets/css/bootstrap.min.css">
     <!-- themify css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/themify-icons.css">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/style.css">
     <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/responsive.css">
     <!-- color css -->
-    <link id="main" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
-    <link id="theme" rel="stylesheet" type="text/css" href="assets/css/color_01.css">
+    <link id="main" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="/assets/documentation/assets/css/color_01.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,7 +35,7 @@
      Pre-loader
      ====================== -->
     <div class="preloader">
-        <img src="assets/images/preloader.svg" class="img-fluid" alt="preloader">
+        <img src="/assets/documentation/assets/images/preloader.svg" class="img-fluid" alt="preloader">
     </div>
     <!-- ======================
          page-wrapper
@@ -49,7 +49,7 @@
         <nav id="sidebar" class="sidebar-wrapper">
             <div class="sidebar-content">
                 <div class="sidebar-brand">
-                    <a href="#">VedhaDocs</a>
+                    <a href="documentation/#">VedhaDocs</a>
                     <div id="close-sidebar">
                         <i class="ti-close"></i>
                     </div>
@@ -62,32 +62,32 @@
                     ====================== -->
                 <div class="sidebar-menu">
                     <ul>
-                        <li class="side-list"><a href="introduction.html">Introduction</a></li>
+                        <li class="side-list"><a href="documentation/introduction">Introduction</a></li>
                         <li class="sidebar-dropdown">
                             <a><span>Getting Started</span></a>
                             <div class="sidebar-submenu">
                                 <ul>
-                                    <li class="active"><a href="content.html">Contents</a></li>
-                                    <li><a href="article.html">Article-1</a></li>
-                                    <li><a href="article-2.html">Article-2</a></li>
+                                    <li class="active"><a href="documentation/content">Contents</a></li>
+                                    <li><a href="documentation/article">Article-1</a></li>
+                                    <li><a href="documentation/article-2">Article-2</a></li>
                                 </ul>
                             </div>
                             <!-- end of sidebar-submenu -->
                         </li>
                         <!-- end of sidebar-dropdown -->
-                        <li class="side-list"><a href="layout.html">Overview</a></li>
-                        <li class="side-list"><a href="approach.html">Approach</a></li>
+                        <li class="side-list"><a href="documentation/layout">Overview</a></li>
+                        <li class="side-list"><a href="documentation/approach">Approach</a></li>
                         <li class="sidebar-dropdown">
                             <a><span>Components</span></a>
                             <div class="sidebar-submenu">
                                 <ul>
-                                    <li><a href="alert.html">Alerts</a></li>
-                                    <li><a href="pagination.html">Pagination</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="sign-up.html">Sign Up</a></li>
-                                    <li><a href="typography.html">Typography</a></li>
+                                    <li><a href="documentation/alert">Alerts</a></li>
+                                    <li><a href="documentation/pagination">Pagination</a></li>
+                                    <li><a href="documentation/404">404</a></li>
+                                    <li><a href="documentation/faq">FAQ</a></li>
+                                    <li><a href="documentation/login">Login</a></li>
+                                    <li><a href="documentation/sign-up">Sign Up</a></li>
+                                    <li><a href="documentation/typography">Typography</a></li>
                                 </ul>
                             </div>
                             <!-- end of sidebar-submenu -->
@@ -97,16 +97,16 @@
                             <a><span>Pages</span></a>
                             <div class="sidebar-submenu">
                                 <ul>
-                                    <li><a href="bootstrap.html">Bootstrap</a></li>
-                                    <li><a href="bootstrap-2.html">Bootstrap lite</a></li>
-                                    <li><a href="semantic.html">Semantic</a></li>
-                                    <li><a href="badge.html">Badge</a></li>
+                                    <li><a href="documentation/bootstrap">Bootstrap</a></li>
+                                    <li><a href="documentation/bootstrap-2">Bootstrap lite</a></li>
+                                    <li><a href="documentation/semantic">Semantic</a></li>
+                                    <li><a href="documentation/badge">Badge</a></li>
                                 </ul>
                             </div>
                             <!-- end of sidebar-submenu -->
                         </li>
                         <!-- end of sidebar-dropdown -->
-                        <li class="side-list"><a href="contact.html">Contact</a></li>
+                        <li class="side-list"><a href="documentation/contact">Contact</a></li>
                     </ul>
                 </div>
                 <!-- sidebar-menu  -->
@@ -133,39 +133,39 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layout</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="layout.html">Layout-1</a>
-                                        <a class="dropdown-item" href="introduction.html">Layout-2</a>
-                                        <a class="dropdown-item" href="bootstrap-2.html">Minimal</a>
-                                        <a class="dropdown-item" href="bootstrap.html">Bootstrap</a>
-                                        <a class="dropdown-item" href="semantic.html">Semantic</a>
+                                        <a class="dropdown-item" href="layout">Layout-1</a>
+                                        <a class="dropdown-item" href="introduction">Layout-2</a>
+                                        <a class="dropdown-item" href="bootstrap-2">Minimal</a>
+                                        <a class="dropdown-item" href="bootstrap">Bootstrap</a>
+                                        <a class="dropdown-item" href="semantic">Semantic</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown-1">
-                                        <a class="dropdown-item" href="article.html">Article-1</a>
-                                        <a class="dropdown-item" href="article-2.html">Article-2</a>
-                                        <a class="dropdown-item" href="404.html">404</a>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                                        <a class="dropdown-item" href="login.html">Login</a>
-                                        <a class="dropdown-item" href="sign-up.html">Sign Up</a>
+                                        <a class="dropdown-item" href="article">Article-1</a>
+                                        <a class="dropdown-item" href="article-2">Article-2</a>
+                                        <a class="dropdown-item" href="404">404</a>
+                                        <a class="dropdown-item" href="contact">Contact</a>
+                                        <a class="dropdown-item" href="faq">FAQ</a>
+                                        <a class="dropdown-item" href="login">Login</a>
+                                        <a class="dropdown-item" href="sign-up">Sign Up</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
                                 <!-- end of nav-item -->
                                 <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
-                                        <a class="dropdown-item" href="alert.html">Alerts</a>
-                                        <a class="dropdown-item" href="typography.html">Typography</a>
-                                        <a class="dropdown-item active" href="content.html">Content</a>
-                                        <a class="dropdown-item" href="badge.html">Badge</a>
-                                        <a class="dropdown-item" href="pagination.html">Pagination</a>
+                                        <a class="dropdown-item" href="alert">Alerts</a>
+                                        <a class="dropdown-item" href="typography">Typography</a>
+                                        <a class="dropdown-item active" href="content">Content</a>
+                                        <a class="dropdown-item" href="badge">Badge</a>
+                                        <a class="dropdown-item" href="pagination">Pagination</a>
                                     </div>
                                     <!-- end of dropdown-menu -->
                                 </li>
@@ -247,11 +247,11 @@
                                             <div><code class="font-weight-normal text-nowrap">bootstrap-grid.min.css</code>
                                             </div>
                                         </th>
-                                        <td><a class="text-warning" href="docs/4.3/layout/grid/index.html">Only grid system</a>
+                                        <td><a class="text-warning" href="/assets/documentation/docs/4.3/layout/grid/index">Only grid system</a>
                                         </td>
                                         <td class="bg-light text-muted">Not included</td>
                                         <td class="bg-light text-muted">Not included</td>
-                                        <td><a class="text-warning" href="docs/4.3/utilities/flex/index.html">Only flex utilities</a>
+                                        <td><a class="text-warning" href="/assets/documentation/docs/4.3/utilities/flex/index">Only flex utilities</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -262,7 +262,7 @@
                                             </div>
                                         </th>
                                         <td class="bg-light text-muted">Not included</td>
-                                        <td><a class="text-warning" href="docs/4.3/content/reboot/index.html">Only Reboot</a>
+                                        <td><a class="text-warning" href="/assets/documentation/docs/4.3/content/reboot/index">Only Reboot</a>
                                         </td>
                                         <td class="bg-light text-muted">Not included</td>
                                         <td class="bg-light text-muted">Not included</td>
@@ -332,10 +332,10 @@
                   right-nav
                   =====================-->
                 <div class="right-nav nav">
-                    <nav> <a href="#precompiled">Precompiled Bootstrap</a>
-                        <a href="#css_files">CSS files</a>
-                        <a href="#js_files">JS files</a>
-                        <a href="#code_src">Bootstrap source code</a>
+                    <nav> <a href="documentation/#precompiled">Precompiled Bootstrap</a>
+                        <a href="documentation/#css_files">CSS files</a>
+                        <a href="documentation/#js_files">JS files</a>
+                        <a href="documentation/#code_src">Bootstrap source code</a>
                     </nav>
                 </div>
                 <!-- end of right-nav -->
@@ -378,15 +378,15 @@
         =============================-->
             <footer>
                 <ul>
-                    <li><a href="#">Getting Started</a>
+                    <li><a href="documentation/#">Getting Started</a>
                     </li>
-                    <li><a href="#">Layout</a>
+                    <li><a href="documentation/#">Layout</a>
                     </li>
-                    <li><a href="#">Content</a>
+                    <li><a href="documentation/#">Content</a>
                     </li>
-                    <li><a href="#">Components</a>
+                    <li><a href="documentation/#">Components</a>
                     </li>
-                    <li><a href="#">Utilities</a>
+                    <li><a href="documentation/#">Utilities</a>
                     </li>
                 </ul>
             </footer>
@@ -397,19 +397,19 @@
                 <h4>Theme</h4>
                 <ul class="clearfix">
                     <li>
-                        <a href="#" id="blue-wlt"></a>
+                        <a href="documentation/#" id="blue-wlt"></a>
                     </li>
                     <li>
-                        <a href="#" id="gradient-wlt"></a>
+                        <a href="documentation/#" id="gradient-wlt"></a>
                     </li>
                     <li>
-                        <a href="#" id="green-wlt"></a>
+                        <a href="documentation/#" id="green-wlt"></a>
                     </li>
                     <li>
-                        <a href="#" id="red-wlt"></a>
+                        <a href="documentation/#" id="red-wlt"></a>
                     </li>
                     <li>
-                        <a href="#" id="img-wlt"></a>
+                        <a href="documentation/#" id="img-wlt"></a>
                     </li>
                 </ul>
             </div>
@@ -421,15 +421,15 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Plugins, then Custom js -->
     <!-- jquery -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/assets/documentation/assets/js/jquery.min.js"></script>
     <!-- popper js-->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="/assets/documentation/assets/js/popper.min.js"></script>
     <!-- bootstrap js-->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/assets/documentation/assets/js/bootstrap.min.js"></script>
     <!-- slideNav js -->
-    <script src="assets/js/slideNav.js"></script>
+    <script src="/assets/documentation/assets/js/slideNav.js"></script>
     <!-- custom js -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/documentation/assets/js/custom.js"></script>
 </body>
 
 
