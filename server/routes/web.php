@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Landing page
+// Landing pages
 Route::get('/', function () { return view('frontend.index'); });
 Route::get('/404', function () { return view('frontend.404'); });
 Route::get('/about', function () { return view('frontend.about'); });
@@ -44,6 +44,26 @@ Route::get('/service', function () { return view('frontend.service'); });
 Route::get('/sign-in', function () { return view('frontend.sign-in'); });
 Route::get('/sign-up', function () { return view('frontend.sign-up'); });
 Route::get('/voice-message', function () { return view('frontend.voice-message'); });
+
+// Documentation pages
+Route::get('/documentation', function () { return view('documentation.index'); });
+Route::get('/documentation/404', function () { return view('documentation.404'); });
+Route::get('/documentation/alert', function () { return view('documentation.alert'); });
+Route::get('/documentation/approach', function () { return view('documentation.approach'); });
+Route::get('/documentation/article-2', function () { return view('documentation.article-2'); });
+Route::get('/documentation/article', function () { return view('documentation.article'); });
+Route::get('/documentation/badge', function () { return view('documentation.badge'); });
+Route::get('/documentation/bootstrap-2', function () { return view('documentation.bootstrap-2'); });
+Route::get('/documentation/bootstrap', function () { return view('documentation.bootstrap'); });
+Route::get('/documentation/contact', function () { return view('documentation.contact'); });
+Route::get('/documentation/content', function () { return view('documentation.content'); });
+Route::get('/documentation/faq', function () { return view('documentation.faq'); });
+Route::get('/documentation/layout', function () { return view('documentation.layout'); });
+Route::get('/documentation/login', function () { return view('documentation.login'); });
+Route::get('/documentation/pagination', function () { return view('documentation.pagination'); });
+Route::get('/documentation/semantic', function () { return view('documentation.semantic'); });
+Route::get('/documentation/sign-up', function () { return view('documentation.sign-up'); });
+Route::get('/documentation/typography', function () { return view('documentation.typography'); });
 
 // Authentication pages
 Auth::routes();
