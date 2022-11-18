@@ -20,7 +20,7 @@
 
     <link rel="shortcut icon" href="/assets/frontend/images/favicon.png" type="image/x-icon">
 
-    <title>Messon - Bulk SMS Reseller Business HTML Template</title>
+    <title>LatchTech BulkSMS</title>
 
 
 </head>
